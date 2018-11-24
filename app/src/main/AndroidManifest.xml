@@ -17,10 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".CrimeActivity"></activity>
-        <activity
-            android:name=".activity_crime_pager"
-            android:label="@string/title_activity_crime_pager"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
