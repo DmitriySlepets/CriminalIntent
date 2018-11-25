@@ -1,4 +1,4 @@
-package ru.codeking.criminalintent;
+package ru.codeking.criminalintent.controllers;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,11 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.util.List;
 import java.util.UUID;
+
+import ru.codeking.criminalintent.fragments.CrimeFragment;
+import ru.codeking.criminalintent.R;
+import ru.codeking.criminalintent.dao.CrimeLab;
+import ru.codeking.criminalintent.models.Crime;
 
 public class CrimePagerActivity extends AppCompatActivity {
     private static final String EXTRA_CRIME_ID = "ru.codeking.criminalintent.crime_id";

@@ -1,4 +1,4 @@
-package ru.codeking.criminalintent;
+package ru.codeking.criminalintent.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -13,6 +13,10 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 
 import java.util.UUID;
+
+import ru.codeking.criminalintent.R;
+import ru.codeking.criminalintent.dao.CrimeLab;
+import ru.codeking.criminalintent.models.Crime;
 
 public class CrimeFragment extends Fragment {
 

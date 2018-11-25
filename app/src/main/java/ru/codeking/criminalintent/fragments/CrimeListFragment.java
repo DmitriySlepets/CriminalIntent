@@ -1,4 +1,4 @@
-package ru.codeking.criminalintent;
+package ru.codeking.criminalintent.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,10 +10,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.text.DateFormat;
 import java.util.List;
+
+import ru.codeking.criminalintent.R;
+import ru.codeking.criminalintent.controllers.CrimePagerActivity;
+import ru.codeking.criminalintent.dao.CrimeLab;
+import ru.codeking.criminalintent.models.Crime;
 
 public class CrimeListFragment extends Fragment {
     private RecyclerView mCrimeRecyclerView;

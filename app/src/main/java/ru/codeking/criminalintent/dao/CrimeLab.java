@@ -1,10 +1,12 @@
-package ru.codeking.criminalintent;
+package ru.codeking.criminalintent.dao;
 
 import android.content.Context;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
+
+import ru.codeking.criminalintent.models.Crime;
 
 public class CrimeLab {
     private static CrimeLab sCrimeLab;

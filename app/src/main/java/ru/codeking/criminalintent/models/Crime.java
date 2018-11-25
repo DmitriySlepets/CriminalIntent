@@ -1,4 +1,4 @@
-package ru.codeking.criminalintent;
+package ru.codeking.criminalintent.models;
 
 import java.util.Date;
 import java.util.UUID;
