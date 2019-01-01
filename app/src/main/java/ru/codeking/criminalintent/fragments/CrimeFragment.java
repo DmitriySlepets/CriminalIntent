@@ -36,7 +36,7 @@ import java.util.UUID;
 import ru.codeking.criminalintent.R;
 import ru.codeking.criminalintent.dao.CrimeLab;
 import ru.codeking.criminalintent.models.Crime;
-import ru.codeking.criminalintent.utils.PictuteUtils;
+import ru.codeking.criminalintent.utils.PictureUtils;
 
 public class CrimeFragment extends Fragment {
 
@@ -257,7 +257,7 @@ public class CrimeFragment extends Fragment {
         if (mPhotoFile == null || !mPhotoFile.exists()) {
             mPhotoView.setImageDrawable(null);
         }else{
-            Bitmap bitmap = PictuteUtils.getScaledBitmap(mPhotoFile.getPath(), getActivity());
+            Bitmap bitmap = PictureUtils.getScaledBitmap(mPhotoFile.getPath(), getActivity());
             mPhotoView.setImageBitmap(bitmap);
         }
     }
